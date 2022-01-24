@@ -2,7 +2,7 @@
 //
 // Created By: Mel Aguoth
 // Date: January 24, 2022
-// This displays the movement of discs in "Towres of Hanoi" using recursion.
+// This displays the movement of discs in "Towers of Hanoi" using recursion.
 
 // Import modules.
 import Foundation
@@ -42,7 +42,6 @@ if Int(userString) == nil {
 // If the user's number of discs isn't above 0, display an error to the user.
 } else if userInt < 0 {
   print("\n" + "\(userInt) isn't a positive integer. Please enter an integer above 0.")
-
 } else {
 
   // Call hanoi.
